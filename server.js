@@ -3,8 +3,6 @@ const { MongoClient, ObjectId } = require('mongodb');
 const dotenv = require('dotenv');
 const multer = require('multer');
 const mongoose = require('mongoose')
-const Comment = require('../src/models/Comment')
-
 
 dotenv.config();
 
